@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+.background {
+    background-color: black;
+    width: 118px;
+    height: 75px;
+    border-radius: 6px;
+    margin-right: 10px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#guest-points {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    font-size: 3rem;
+    margin: 0px auto;
+}
+
+#home-points {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    font-size: 3rem;
+    margin: 0px auto;
+}
+
+.points {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 2.3rem;
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.team {
+    color: white;
+    display: flex;
+    width: 0px;
+    font-size: 2rem;
+    margin: 0px 9px;
+}
+
+#reset {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 5.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
